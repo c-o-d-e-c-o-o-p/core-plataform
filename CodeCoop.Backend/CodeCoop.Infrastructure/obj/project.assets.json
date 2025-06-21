@@ -1,11 +1,30 @@
 {
   "version": 3,
   "targets": {
-    "net8.0": {}
+    "net8.0": {
+      "CodeCoop.Application/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "compile": {
+          "bin/placeholder/CodeCoop.Application.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/CodeCoop.Application.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "CodeCoop.Application/1.0.0": {
+      "type": "project",
+      "path": "../CodeCoop.Application/CodeCoop.Application.csproj",
+      "msbuildProject": "../CodeCoop.Application/CodeCoop.Application.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    "net8.0": []
+    "net8.0": [
+      "CodeCoop.Application >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "/home/fhlotti/.nuget/packages/": {}
@@ -31,7 +50,11 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "/home/fhlotti/work_dir/codecoop/core-plataform/CodeCoop.Backend/CodeCoop.Application/CodeCoop.Application.csproj": {
+              "projectPath": "/home/fhlotti/work_dir/codecoop/core-plataform/CodeCoop.Backend/CodeCoop.Application/CodeCoop.Application.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

@@ -6,4 +6,15 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Folder Include="Configuration\" />
+    <Folder Include="Discord\" />
+    <Folder Include="GitHub\" />
+    <Folder Include="Notion\Mappers\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\CodeCoop.Application\CodeCoop.Application.csproj" />
+  </ItemGroup>
+
 </Project>

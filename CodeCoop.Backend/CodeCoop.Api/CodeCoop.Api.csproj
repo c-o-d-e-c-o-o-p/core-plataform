@@ -11,4 +11,14 @@
     <PackageReference Include="Swashbuckle.AspNetCore" Version="6.6.2" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Extensions\" />
+    <Folder Include="Middlewares\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\CodeCoop.Application\CodeCoop.Application.csproj" />
+    <ProjectReference Include="..\CodeCoop.Infrastructure\CodeCoop.Infrastructure.csproj" />
+  </ItemGroup>
+
 </Project>

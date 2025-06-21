@@ -1,0 +1,16 @@
+/home/fhlotti/work_dir/codecoop/core-plataform/CodeCoop.Backend/CodeCoop.Infrastructure/bin/Debug/net8.0/CodeCoop.Infrastructure.deps.json
+/home/fhlotti/work_dir/codecoop/core-plataform/CodeCoop.Backend/CodeCoop.Infrastructure/bin/Debug/net8.0/CodeCoop.Infrastructure.dll
+/home/fhlotti/work_dir/codecoop/core-plataform/CodeCoop.Backend/CodeCoop.Infrastructure/bin/Debug/net8.0/CodeCoop.Infrastructure.pdb
+/home/fhlotti/work_dir/codecoop/core-plataform/CodeCoop.Backend/CodeCoop.Infrastructure/bin/Debug/net8.0/CodeCoop.Application.dll
+/home/fhlotti/work_dir/codecoop/core-plataform/CodeCoop.Backend/CodeCoop.Infrastructure/bin/Debug/net8.0/CodeCoop.Application.pdb
+/home/fhlotti/work_dir/codecoop/core-plataform/CodeCoop.Backend/CodeCoop.Infrastructure/obj/Debug/net8.0/CodeCoop.Infrastructure.csproj.AssemblyReference.cache
+/home/fhlotti/work_dir/codecoop/core-plataform/CodeCoop.Backend/CodeCoop.Infrastructure/obj/Debug/net8.0/CodeCoop.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+/home/fhlotti/work_dir/codecoop/core-plataform/CodeCoop.Backend/CodeCoop.Infrastructure/obj/Debug/net8.0/CodeCoop.Infrastructure.AssemblyInfoInputs.cache
+/home/fhlotti/work_dir/codecoop/core-plataform/CodeCoop.Backend/CodeCoop.Infrastructure/obj/Debug/net8.0/CodeCoop.Infrastructure.AssemblyInfo.cs
+/home/fhlotti/work_dir/codecoop/core-plataform/CodeCoop.Backend/CodeCoop.Infrastructure/obj/Debug/net8.0/CodeCoop.Infrastructure.csproj.CoreCompileInputs.cache
+/home/fhlotti/work_dir/codecoop/core-plataform/CodeCoop.Backend/CodeCoop.Infrastructure/obj/Debug/net8.0/CodeCoop.Infrastructure.sourcelink.json
+/home/fhlotti/work_dir/codecoop/core-plataform/CodeCoop.Backend/CodeCoop.Infrastructure/obj/Debug/net8.0/CodeCoop.Infrastructure.csproj.CopyComplete
+/home/fhlotti/work_dir/codecoop/core-plataform/CodeCoop.Backend/CodeCoop.Infrastructure/obj/Debug/net8.0/CodeCoop.Infrastructure.dll
+/home/fhlotti/work_dir/codecoop/core-plataform/CodeCoop.Backend/CodeCoop.Infrastructure/obj/Debug/net8.0/refint/CodeCoop.Infrastructure.dll
+/home/fhlotti/work_dir/codecoop/core-plataform/CodeCoop.Backend/CodeCoop.Infrastructure/obj/Debug/net8.0/CodeCoop.Infrastructure.pdb
+/home/fhlotti/work_dir/codecoop/core-plataform/CodeCoop.Backend/CodeCoop.Infrastructure/obj/Debug/net8.0/ref/CodeCoop.Infrastructure.dll

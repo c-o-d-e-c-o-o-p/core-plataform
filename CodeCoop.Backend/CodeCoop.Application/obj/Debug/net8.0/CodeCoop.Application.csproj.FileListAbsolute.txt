@@ -1,0 +1,12 @@
+/home/fhlotti/work_dir/codecoop/core-plataform/CodeCoop.Backend/CodeCoop.Application/bin/Debug/net8.0/CodeCoop.Application.deps.json
+/home/fhlotti/work_dir/codecoop/core-plataform/CodeCoop.Backend/CodeCoop.Application/bin/Debug/net8.0/CodeCoop.Application.dll
+/home/fhlotti/work_dir/codecoop/core-plataform/CodeCoop.Backend/CodeCoop.Application/bin/Debug/net8.0/CodeCoop.Application.pdb
+/home/fhlotti/work_dir/codecoop/core-plataform/CodeCoop.Backend/CodeCoop.Application/obj/Debug/net8.0/CodeCoop.Application.GeneratedMSBuildEditorConfig.editorconfig
+/home/fhlotti/work_dir/codecoop/core-plataform/CodeCoop.Backend/CodeCoop.Application/obj/Debug/net8.0/CodeCoop.Application.AssemblyInfoInputs.cache
+/home/fhlotti/work_dir/codecoop/core-plataform/CodeCoop.Backend/CodeCoop.Application/obj/Debug/net8.0/CodeCoop.Application.AssemblyInfo.cs
+/home/fhlotti/work_dir/codecoop/core-plataform/CodeCoop.Backend/CodeCoop.Application/obj/Debug/net8.0/CodeCoop.Application.csproj.CoreCompileInputs.cache
+/home/fhlotti/work_dir/codecoop/core-plataform/CodeCoop.Backend/CodeCoop.Application/obj/Debug/net8.0/CodeCoop.Application.sourcelink.json
+/home/fhlotti/work_dir/codecoop/core-plataform/CodeCoop.Backend/CodeCoop.Application/obj/Debug/net8.0/CodeCoop.Application.dll
+/home/fhlotti/work_dir/codecoop/core-plataform/CodeCoop.Backend/CodeCoop.Application/obj/Debug/net8.0/refint/CodeCoop.Application.dll
+/home/fhlotti/work_dir/codecoop/core-plataform/CodeCoop.Backend/CodeCoop.Application/obj/Debug/net8.0/CodeCoop.Application.pdb
+/home/fhlotti/work_dir/codecoop/core-plataform/CodeCoop.Backend/CodeCoop.Application/obj/Debug/net8.0/ref/CodeCoop.Application.dll
