@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodeCoop.Api", "CodeCoop.Api\CodeCoop.Api.csproj", "{08225D10-2D9C-4761-A428-0999DAB25AC6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodeCoop.Application", "CodeCoop.Application\CodeCoop.Application.csproj", "{8EAE45D6-136B-46F8-B02D-EF313360301D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodeCoop.Domain", "CodeCoop.Domain\CodeCoop.Domain.csproj", "{4FF49E75-8E14-4092-A944-741F74F36710}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodeCoop.Infrastructure", "CodeCoop.Infrastructure\CodeCoop.Infrastructure.csproj", "{376A8DB7-7869-4DFE-BB35-D6D49F63BE12}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{08225D10-2D9C-4761-A428-0999DAB25AC6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{08225D10-2D9C-4761-A428-0999DAB25AC6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{08225D10-2D9C-4761-A428-0999DAB25AC6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{08225D10-2D9C-4761-A428-0999DAB25AC6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8EAE45D6-136B-46F8-B02D-EF313360301D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8EAE45D6-136B-46F8-B02D-EF313360301D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8EAE45D6-136B-46F8-B02D-EF313360301D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8EAE45D6-136B-46F8-B02D-EF313360301D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4FF49E75-8E14-4092-A944-741F74F36710}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4FF49E75-8E14-4092-A944-741F74F36710}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4FF49E75-8E14-4092-A944-741F74F36710}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4FF49E75-8E14-4092-A944-741F74F36710}.Release|Any CPU.Build.0 = Release|Any CPU
+		{376A8DB7-7869-4DFE-BB35-D6D49F63BE12}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{376A8DB7-7869-4DFE-BB35-D6D49F63BE12}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{376A8DB7-7869-4DFE-BB35-D6D49F63BE12}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{376A8DB7-7869-4DFE-BB35-D6D49F63BE12}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
