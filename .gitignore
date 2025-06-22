@@ -1,0 +1,47 @@
+## .NET build artifacts
+bin/
+obj/
+[Bb]uild/
+[Bb]uild[Ll]og.*
+TestResults/
+*.dbmdl
+*.log
+*.tlog
+*.vspscc
+*.vssscc
+.vs/
+.vscode/
+
+## User-specific files
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+## Rider project files
+.idea/
+*.sln.iml
+
+## ASP.NET Secrets and configs
+appsettings.json
+appsettings.*.json
+*.secrets.json
+.env
+.env.*
+
+## NuGet
+*.nupkg
+*.snupkg
+.nuget/
+
+## ReSharper
+_ReSharper*/
+*.[Rr]e[Ss]harper
+*.DotSettings.user
+
+## Other common
+*.DS_Store
+Thumbs.db
+*.bak
+*.tmp
+*.swp

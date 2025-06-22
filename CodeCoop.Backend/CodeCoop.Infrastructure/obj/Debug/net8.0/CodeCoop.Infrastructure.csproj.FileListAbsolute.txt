@@ -14,3 +14,5 @@
 /home/fhlotti/work_dir/codecoop/core-plataform/CodeCoop.Backend/CodeCoop.Infrastructure/obj/Debug/net8.0/refint/CodeCoop.Infrastructure.dll
 /home/fhlotti/work_dir/codecoop/core-plataform/CodeCoop.Backend/CodeCoop.Infrastructure/obj/Debug/net8.0/CodeCoop.Infrastructure.pdb
 /home/fhlotti/work_dir/codecoop/core-plataform/CodeCoop.Backend/CodeCoop.Infrastructure/obj/Debug/net8.0/ref/CodeCoop.Infrastructure.dll
+/home/fhlotti/work_dir/codecoop/core-plataform/CodeCoop.Backend/CodeCoop.Infrastructure/bin/Debug/net8.0/Microsoft.Extensions.Configuration.Abstractions.dll
+/home/fhlotti/work_dir/codecoop/core-plataform/CodeCoop.Backend/CodeCoop.Infrastructure/bin/Debug/net8.0/Microsoft.Extensions.Primitives.dll

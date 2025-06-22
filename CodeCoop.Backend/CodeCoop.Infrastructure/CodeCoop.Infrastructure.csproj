@@ -10,11 +10,16 @@
     <Folder Include="Configuration\" />
     <Folder Include="Discord\" />
     <Folder Include="GitHub\" />
-    <Folder Include="Notion\Mappers\" />
   </ItemGroup>
 
   <ItemGroup>
     <ProjectReference Include="..\CodeCoop.Application\CodeCoop.Application.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="Microsoft.Extensions.Configuration.Abstractions">
+      <HintPath>..\..\..\..\..\..\..\usr\lib\dotnet\shared\Microsoft.AspNetCore.App\8.0.16\Microsoft.Extensions.Configuration.Abstractions.dll</HintPath>
+    </Reference>
   </ItemGroup>
 
 </Project>

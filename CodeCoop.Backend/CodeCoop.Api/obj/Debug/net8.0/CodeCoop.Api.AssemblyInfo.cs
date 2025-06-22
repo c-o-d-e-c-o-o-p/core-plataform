@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("CodeCoop.Api")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f0e083d1e96a4ff57a8aafc44f03953b7af64c31")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+32142358ba4616d7ad03742672de66addab31929")]
 [assembly: System.Reflection.AssemblyProductAttribute("CodeCoop.Api")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CodeCoop.Api")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
