@@ -3,7 +3,7 @@ using CodeCoop.Application.Interfaces;
 
 namespace CodeCoop.Application.UseCases;
 
-public class GetAllTrailsUseCase
+public class GetAllTrailsUseCase : IGetAllTrailsUseCase
 {
     private readonly ITrailRepository _trailRepository;
 

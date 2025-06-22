@@ -3,7 +3,6 @@ using System.Text;
 using System.Text.Json;
 using CodeCoop.Application.DTOs;
 using CodeCoop.Application.Interfaces;
-using CodeCoop.Infrastructure.Notion.Extensions;
 using CodeCoop.Infrastructure.Notion.Mappers;
 using Microsoft.Extensions.Configuration;
 
@@ -42,6 +41,57 @@ public class NotionTrailService : ITrailRepository
             .EnumerateArray()
             .Select(item => item.ToTrailDto())
             .ToList();
+    }
+    
+    public async Task CreateAsync(TrailDto dto)
+    {
+        var url = "https://api.notion.com/v1/pages";
+
+        var payload = new
+        {
+            parent = new { database_id = _databaseId },
+            properties = new
+            {
+                Name = new
+                {
+                    title = new[]
+                    {
+                        new
+                        {
+                            text = new { content = dto.Name }
+                        }
+                    }
+                },
+                Level = new
+                {
+                    select = new { name = dto.Level }
+                },
+                Status = new
+                {
+                    select = new { name = dto.Status }
+                },
+                GitHubRepo = new
+                {
+                    url = dto.GitHubRepo
+                },
+                DiscordChannel = new
+                {
+                    rich_text = new[]
+                    {
+                        new
+                        {
+                            text = new { content = dto.DiscordChannel }
+                        }
+                    }
+                }
+            }
+        };
+
+        var json = JsonSerializer.Serialize(payload);
+        var content = new StringContent(json, Encoding.UTF8, "application/json");
+
+        var response = await _httpClient.PostAsync(url, content);
+        response.EnsureSuccessStatusCode();
     }
 
 }

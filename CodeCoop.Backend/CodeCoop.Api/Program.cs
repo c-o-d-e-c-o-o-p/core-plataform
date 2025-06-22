@@ -11,7 +11,8 @@ builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
 builder.Services.AddScoped<ITrailRepository, NotionTrailService>();
-builder.Services.AddScoped<GetAllTrailsUseCase>();
+builder.Services.AddScoped<IGetAllTrailsUseCase, GetAllTrailsUseCase>();
+builder.Services.AddScoped<ICreateTrailUseCase, CreateTrailUseCase>();
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.

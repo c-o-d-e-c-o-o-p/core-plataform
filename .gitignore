@@ -1,47 +1,39 @@
-## .NET build artifacts
-bin/
-obj/
-[Bb]uild/
-[Bb]uild[Ll]og.*
-TestResults/
-*.dbmdl
-*.log
-*.tlog
-*.vspscc
-*.vssscc
-.vs/
-.vscode/
+# .NET build artifacts
+**/bin/
+**/obj/
+*.dll
+*.pdb
 
-## User-specific files
+# User-specific files
 *.user
 *.suo
 *.userosscache
 *.sln.docstates
 
-## Rider project files
+# Rider and VS Code
 .idea/
+.vscode/
 *.sln.iml
+*.DotSettings.user
 
-## ASP.NET Secrets and configs
-appsettings.json
-appsettings.*.json
+# ASP.NET configs
+**/appsettings.json
+**/appsettings.*.json
 *.secrets.json
 .env
 .env.*
 
-## NuGet
+# Logs, temp and cache
+*.log
+*.tmp
+*.cache
+*.bak
+*.swp
+
+# NuGet and build system
+.nuget/
 *.nupkg
 *.snupkg
-.nuget/
-
-## ReSharper
-_ReSharper*/
-*.[Rr]e[Ss]harper
-*.DotSettings.user
-
-## Other common
-*.DS_Store
-Thumbs.db
-*.bak
-*.tmp
-*.swp
+*.csproj.nuget.dgspec.json
+*.csproj.FileListAbsolute.txt
+*.csproj.AssemblyReference.cache
