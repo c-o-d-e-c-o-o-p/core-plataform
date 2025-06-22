@@ -15,7 +15,7 @@ public class CreateTrailUseCase : ICreateTrailUseCase
 
     public async Task ExecuteAsync(TrailDto dto)
     {
-        // Aqui você pode aplicar validações de negócio antes de criar
+
         if (string.IsNullOrWhiteSpace(dto.Name))
             throw new ArgumentException("O nome da trilha não pode estar vazio.");
 
